@@ -13,7 +13,7 @@ var TxtType = function(el, toRotate, period) {
         var fullTxt = this.toRotate[i];
 
         if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        this.txt = '';
         } else {
         this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
@@ -21,17 +21,15 @@ var TxtType = function(el, toRotate, period) {
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
         var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
+        var delta = 100;
 
         if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
+        delta = 1500;
         this.isDeleting = true;
         } else if (this.isDeleting && this.txt === '') {
         this.isDeleting = false;
         this.loopNum++;
-        delta = 500;
+        delta = 200;
         }
 
         setTimeout(function() {
