@@ -1,8 +1,36 @@
-body {
+#typer {
   background-color:#ce3635;
   text-align: center;
   color:#fff;
   padding-top:10em;
+  padding-bottom: 10em;
 }
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333;
+}
+li{
+	float: right;
+}
+
+li p{
+	font-weight: bold;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#name{
+	float:left;
+}
+li.menuItem:hover{
+	background-color:#111;
+}
+
 
 * { color:#fff; text-decoration: none;}
