@@ -1,3 +1,11 @@
+@font-face{
+	font-family: Utopia;
+	src: url(../fonts/UtopiaStd-Regular.otf);
+}
+@font-face{
+	font-family: ProximaNovaThin;
+	src: url(../fonts/ProximaNovaThin.ttf);
+}
 #typer {
   background-color:#ce3635;
   text-align: center;
@@ -16,20 +24,35 @@ ul{
 li{
 	float: right;
 }
-
-li p{
-	font-weight: bold;
-	display: block;
+li.menuItem{
+	font-weight:200;
+	/*display: block;*/
 	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+	text-align:center;
+	padding-top:.5%;
+	padding-right:1%;
+	font-family:'ProximaNovaThin';
+	position:relative;
+	letter-spacing: 2.5px;
+	font-size:small;
 }
 #name{
+	font-family: 'ProximaNovaThin';
+	letter-spacing: 4px;
+	display:block;
+	color:white;
+	text-align:center;
+	font-size: x-large;
 	float:left;
+	padding-left: 2%;
 }
 li.menuItem:hover{
-	background-color:#111;
+	/*background-color:#111;
+	color:#111;*/
+	/*font-weight: 900;
+	text-shadow: 1px 0 white;*/
+	font-weight:800;
+	letter-spacing: 2.4px;
 }
 
 
