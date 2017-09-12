@@ -665,10 +665,10 @@ header {
 .service > h3 {
 	transition-duration:0.5s;
 }
-
+/*
 .service:hover > h3 {
 	color:#34495E;
-}
+}*/
 
 .service > p {
 	line-height:22px;
