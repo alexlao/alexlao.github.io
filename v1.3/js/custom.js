@@ -42,6 +42,11 @@ $(document).ready(function() {
 			animate: 2000
 		});
     });
+
+    $('#webHead').click(function(){
+    	console.log('clicked');
+    	$('#webInfo').slideToggle(500);
+    });
 	
 	$('#overlay-hide').click(function() {
 		$('#reference .reference-overlay').animate({opacity:0},1000);

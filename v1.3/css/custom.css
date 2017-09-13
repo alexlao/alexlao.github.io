@@ -715,11 +715,12 @@ header {
 #showcase .showcase-text {
 	text-align:left;
 }
-
 #showcase .showcase-text .media {
 	margin-bottom:30px;
 }
-
+#showcase #webHead:hover{
+	color:#34495E;
+}
 #showcase .showcase-text .media p {
 	margin-bottom:0;
 }
