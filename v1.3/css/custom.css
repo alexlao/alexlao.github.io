@@ -508,7 +508,11 @@ header {
 	padding-bottom:5px;
 	max-width:150px;
 }
-
+#about #summary h3{
+	border-bottom:none;
+	font-size:26px;
+	max-width: none;
+}
 
 #about .brands > li > a {
 	background-color:transparent;
