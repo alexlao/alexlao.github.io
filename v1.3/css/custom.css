@@ -680,10 +680,6 @@ header {
 
 }
 
-#services {
-	height:680px;
-}
-
 /*------------------------------
 	SEPARATOR
 ------------------------------*/
@@ -723,6 +719,9 @@ header {
 	margin-bottom:30px;
 }
 #showcase #webHead:hover{
+	color:#34495E;
+}
+#showcase #appHead:hover{
 	color:#34495E;
 }
 #showcase .showcase-text .media p {

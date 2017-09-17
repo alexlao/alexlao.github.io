@@ -45,9 +45,14 @@ $(document).ready(function() {
 
     $('#webHead').click(function(){
     	console.log('clicked');
-    	$('#webInfo').slideToggle(500);
+    	$('.carousel').carousel(0);
     });
 	
+	$('#appHead').click(function(){
+    	console.log('clicked');
+    	$('.carousel').carousel(4);
+    });
+
 	$('#overlay-hide').click(function() {
 		$('#reference .reference-overlay').animate({opacity:0},1000);
 		$('#reference-text').animate({opacity:0},1000);
